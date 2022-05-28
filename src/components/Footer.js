@@ -12,7 +12,7 @@ function Footer() {
   let year = date.getFullYear();
   return (
     <Container fluid className="footer">
-      <Row>
+      {/* <Row>
         <Col md="4" className="footer-copywright">
           <h3>Designed and Developed by Soumyajit Behera</h3>
         </Col>
@@ -63,7 +63,7 @@ function Footer() {
             </li>
           </ul>
         </Col>
-      </Row>
+      </Row> */}
     </Container>
   );
 }

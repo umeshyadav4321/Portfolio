@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
+// import leaf from "../../Assets/Projects/leaf.png";
+// import emotion from "../../Assets/Projects/emotion.jpeg";
 import Boat from "../../Assets/Projects/Boat.png";
 import juicy_Chemistry from "../../Assets/Projects/juicy_Chemistry.png";
 import Frazzo from "../../Assets/Projects/Frazzo.png";
@@ -25,8 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={juicy_Chemistry}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="Juicy Chemistry"
+              description="It is an inspired project from Juicy Chemistry.
+              Juicy Chemistry is an Online E-Commmerce Beauty Products Store.Executed along 5 members during our construct Week"
               link="https://github.com/Iqbal0786/Juicy_Chemistry_Clone1"
             />
           </Col>
@@ -35,8 +36,9 @@ function Projects() {
             <ProjectCard
               imgPath={Interntheory}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="Intern Theory"
+              description="It is an inspired project from Inter-Theory Website.
+              Intern Theory is website which provides job opportunities to freshers as well as youngesters.Executed along 2 members during our construct Week."
               link="https://github.com/iam-ayazahmad/InternTheory_Group_Project_Main"
             />
           </Col>
@@ -45,8 +47,8 @@ function Projects() {
             <ProjectCard
               imgPath={Frazzo}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title="Frazzo"
+              description="Frazzo is an Online E-Commerce Website.Inspired project from Frazzo website.Executed by me within 4 days during my construct week"
               link="https://github.com/umeshyadav4321/Frazzo_Website_Clone"
             />
           </Col>
@@ -55,9 +57,9 @@ function Projects() {
             <ProjectCard
               imgPath={Boat}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Boat LifeStyle"
+              description="It is an inspired project from Boat lifeStyle website.Tech-Stack used are React,npm libraries.Executed along with 5 members during or Construct-Week"
+              link="https://github.com/soumyah1512/project_boat_lifestyle"
             />
           </Col>
 

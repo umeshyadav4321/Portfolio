@@ -29,6 +29,7 @@ function Projects() {
               description="It is an inspired project from Juicy Chemistry.
               Juicy Chemistry is an Online E-Commmerce Beauty Products Store.Executed along 5 members during our construct Week"
               link="https://github.com/Iqbal0786/Juicy_Chemistry_Clone1"
+              LiveLink="https://intern-theory-group-project-main.vercel.app/"
             />
           </Col>
 
@@ -40,6 +41,8 @@ function Projects() {
               description="It is an inspired project from Inter-Theory Website.
               Intern Theory is website which provides job opportunities to freshers as well as youngesters.Executed along 2 members during our construct Week."
               link="https://github.com/iam-ayazahmad/InternTheory_Group_Project_Main"
+              LiveLink="https://intern-theory-group-project-main.vercel.app/"
+
             />
           </Col>
 
@@ -50,6 +53,8 @@ function Projects() {
               title="Frazzo"
               description="Frazzo is an Online E-Commerce Website.Inspired project from Frazzo website.Executed by me within 4 days during my construct week"
               link="https://github.com/umeshyadav4321/Frazzo_Website_Clone"
+              LiveLink="https://intern-theory-group-project-main.vercel.app/"
+
             />
           </Col>
 
@@ -60,6 +65,8 @@ function Projects() {
               title="Boat LifeStyle"
               description="It is an inspired project from Boat lifeStyle website.Tech-Stack used are React,npm libraries.Executed along with 5 members during or Construct-Week"
               link="https://github.com/soumyah1512/project_boat_lifestyle"
+              LiveLink="https://intern-theory-group-project-main.vercel.app/"
+
             />
           </Col>
 

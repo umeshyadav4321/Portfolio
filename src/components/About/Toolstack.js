@@ -16,6 +16,7 @@ function Toolstack() {
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
+        <h1>VS Code</h1>
        </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiPostman />

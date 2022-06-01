@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Umesh Yadav </span>
             from <span className="purple"> Mumbai,Maharashtra.</span><br></br>
             <br />I am a BSC IT graduate from Mumbai University.Currently Pursing my Full-Stack Web-Development course at Masai School.<br></br>
-            Aspiring Full-Stack Web-Developer with MERN stack Technology.Looking forword to hone my Skills and knowledge in challenging environment.
+            Aspiring Full-Stack Web-Developer with MERN stack Technology.Looking forword to honing my skills and knowledge in a challenging environment.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

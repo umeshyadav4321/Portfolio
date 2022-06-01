@@ -68,6 +68,16 @@ function NavBar() {
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
+            {/* Skills */}
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/skills"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Skills
+              </Nav.Link>
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link

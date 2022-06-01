@@ -13,6 +13,9 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
         <div >
+        <Card.Text style={{ textAlign: "justify" }}>
+          {props.stack}
+        </Card.Text>
         <Button style={{marginLeft:"5px"}} variant="primary" href={props.link} target="_blank">
           <BiLinkExternal /> &nbsp;
           {props.isBlog ? "View Blog" : "Git-Hub"}

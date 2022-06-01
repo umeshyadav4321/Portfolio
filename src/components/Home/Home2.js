@@ -19,15 +19,14 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I'm passionate Full Stack web developer 
-              <br />
-              <br />I am fluent in classics like
+            I'm passionate Full-Stack Web developer 
+              <br />Proficient in technologies like
               <i>
-                <b className="purple"> Javascript,React,NODE,Express </b>
+                <b className="purple"> Javascript, React, Redux, NODE and Express.</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new User-Centric Web-sites that provides great User Experience,with good UI
+              Quick Lerner and an aspiring full-stack web developer with core knowledge of MERN stack technology.Looking forword to apply and enhance my skills and knowledge in a challenging environment.
 
               <br />
               <br />
@@ -47,7 +46,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img style={{width:"250px",height:"280px",borderRadius:"50%"}} src={portfolio} myclassName="img-fluid" alt="avatar" />
+              <img style={{height:"380px",borderRadius:"50%"}} src={portfolio} myclassName="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

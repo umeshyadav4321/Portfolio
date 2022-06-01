@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Soumyajit_Behera-BIT_MESRA.pdf";
+// import pdf from "../../Assets/../Assets/Soumyajit_Behera-BIT_MESRA.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 // import resume from "../../Assets../Soumyajit_Behera-BIT_MESRA.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
@@ -43,7 +43,7 @@ function ResumeNew() {
                 rel="noopener noreferrer"
               >
                 
-          <h1>Resume</h1>
+          <h1>See Resume</h1>
               </a>
           
 

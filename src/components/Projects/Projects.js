@@ -28,8 +28,9 @@ function Projects() {
               title="Juicy Chemistry"
               description="It is an inspired project from Juicy Chemistry.
               Juicy Chemistry is an Online E-Commmerce Beauty Products Store.Executed along 5 members during our construct Week"
+              stack=" Tech-Stack:-HTML,CSS,JavaScript,Local Storage,Dom"
               link="https://github.com/Iqbal0786/Juicy_Chemistry_Clone1"
-              LiveLink="https://intern-theory-group-project-main.vercel.app/"
+              LiveLink="https://juicy-chemistry-clone1.vercel.app/"
             />
           </Col>
 
@@ -40,6 +41,7 @@ function Projects() {
               title="Intern Theory"
               description="It is an inspired project from Inter-Theory Website.
               Intern Theory is website which provides job opportunities to freshers as well as youngesters.Executed along 2 members during our construct Week."
+              stack=" Tech-Stack:-HTML,CSS,JavaScript,Local Storage,Dom,Import-Export"
               link="https://github.com/iam-ayazahmad/InternTheory_Group_Project_Main"
               LiveLink="https://intern-theory-group-project-main.vercel.app/"
 
@@ -52,8 +54,10 @@ function Projects() {
               isBlog={false}
               title="Frazzo"
               description="Frazzo is an Online E-Commerce Website.Inspired project from Frazzo website.Executed by me within 4 days during my construct week"
+              stack=" Tech-Stack:-HTML,CSS,JavaScript,Local Storage,Dom,Import-Export"
+
               link="https://github.com/umeshyadav4321/Frazzo_Website_Clone"
-              LiveLink="https://intern-theory-group-project-main.vercel.app/"
+              LiveLink="https://serene-sunshine-6f2f84.netlify.app/"
 
             />
           </Col>
@@ -64,8 +68,10 @@ function Projects() {
               isBlog={false}
               title="Boat LifeStyle"
               description="It is an inspired project from Boat lifeStyle website.Tech-Stack used are React,npm libraries.Executed along with 5 members during or Construct-Week"
+              stack=" Tech-Stack:-HTML,CSS,JavaScript,React,Redux,Json-Server"
+
               link="https://github.com/soumyah1512/project_boat_lifestyle"
-              LiveLink="https://intern-theory-group-project-main.vercel.app/"
+              LiveLink="https://tangerine-sunshine-7e926e.netlify.app/"
 
             />
           </Col>

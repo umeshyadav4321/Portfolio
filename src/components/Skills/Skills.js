@@ -65,7 +65,7 @@ const Skills = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJsBadge />
-        <h1>Javascript</h1>
+        <h1>JavaScript</h1>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
@@ -85,7 +85,7 @@ const Skills = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
-        <h1>MnngoDB</h1>
+        <h1>MongoDB</h1>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
       <SiChakraui/>

@@ -31,101 +31,123 @@ function NavBar() {
   window.addEventListener("scroll", scrollHandler);
 
   return (
-    <Navbar
-      expanded={expand}
-      fixed="top"
-      expand="md"
-      className={navColour ? "sticky" : "navbar"}
-    >
-      <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand>
-        <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
-          onClick={() => {
-            updateExpanded(expand ? false : "expanded");
-          }}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </Navbar.Toggle>
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto" defaultActiveKey="#home">
-            <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
-              </Nav.Link>
-            </Nav.Item>
+    <ul style={{display: 'flex', listStyle: 'none', justifyContent: 'space-around'}}>
+          <li><Link  smooth={true}
+          duration={1000}
+          activeClass="active"
+          spy={true}
+          hashSpy={true}to="home" >Home</Link></li>
+          <li><Link  smooth={true}
+          duration={1000}
+          activeClass="active"
+          spy={true}
+          hashSpy={true}  to="home2" >About</Link></li>
+          <li><Link   smooth={true}
+          duration={1000}
+          activeClass="active"
+          spy={true}
+          hashSpy={true} to="projects" >Contact</Link></li>
+          <li><Link  smooth={true}
+          duration={1000}
+          activeClass="active"
+          spy={true}
+          hashSpy={true} to="skills" >Skills</Link></li>
+            </ul>
+    // <Navbar
+    //   expanded={expand}
+    //   fixed="top"
+    //   expand="md"
+    //   className={navColour ? "sticky" : "navbar"}
+    // >
+    //   <Container>
+    //     <Navbar.Brand href="/" className="d-flex">
+    //       <img src={logo} className="img-fluid logo" alt="brand" />
+    //     </Navbar.Brand>
+    //     <Navbar.Toggle
+    //       aria-controls="responsive-navbar-nav"
+    //       onClick={() => {
+    //         updateExpanded(expand ? false : "expanded");
+    //       }}
+    //     >
+    //       <span></span>
+    //       <span></span>
+    //       <span></span>
+    //     </Navbar.Toggle>
+    //     <Navbar.Collapse id="responsive-navbar-nav">
+    //       <Nav className="ms-auto" defaultActiveKey="#home">
+    //         <Nav.Item>
+    //           <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+    //             <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+    //           </Nav.Link>
+    //         </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
-              </Nav.Link>
-            </Nav.Item>
-            {/* Skills */}
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/skills"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Skills
-              </Nav.Link>
-            </Nav.Item>
+    //         <Nav.Item>
+    //           <Nav.Link
+    //             as={Link}
+    //             to="/about"
+    //             onClick={() => updateExpanded(false)}
+    //           >
+    //             <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+    //           </Nav.Link>
+    //         </Nav.Item>
+    //         {/* Skills */}
+    //         <Nav.Item>
+    //           <Nav.Link
+    //             as={Link}
+    //             to="/skills"
+    //             onClick={() => updateExpanded(false)}
+    //           >
+    //             <AiOutlineUser style={{ marginBottom: "2px" }} /> Skills
+    //           </Nav.Link>
+    //         </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/project"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
-              </Nav.Link>
-            </Nav.Item>
+    //         <Nav.Item>
+    //           <Nav.Link
+    //             as={Link}
+    //             to="/project"
+    //             onClick={() => updateExpanded(false)}
+    //           >
+    //             <AiOutlineFundProjectionScreen
+    //               style={{ marginBottom: "2px" }}
+    //             />{" "}
+    //             Projects
+    //           </Nav.Link>
+    //         </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Contact
-              </Nav.Link>
-            </Nav.Item>
+    //         <Nav.Item>
+    //           <Nav.Link
+    //             as={Link}
+    //             to="/resume"
+    //             onClick={() => updateExpanded(false)}
+    //           >
+    //             <CgFileDocument style={{ marginBottom: "2px" }} /> Contact
+    //           </Nav.Link>
+    //         </Nav.Item>
 
-            {/* <Nav.Item>
-              <Nav.Link
-                href="https://blogs.soumya-jit.tech/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
-              </Nav.Link>
-            </Nav.Item> */}
+    //         {/* <Nav.Item>
+    //           <Nav.Link
+    //             href="https://blogs.soumya-jit.tech/"
+    //             target="_blank"
+    //             rel="noreferrer"
+    //           >
+    //             <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+    //           </Nav.Link>
+    //         </Nav.Item> */}
 
-            {/* <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/soumyajit4419/Portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
-            </Nav.Item> */}
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    //         {/* <Nav.Item className="fork-btn">
+    //           <Button
+    //             href="https://github.com/soumyajit4419/Portfolio"
+    //             target="_blank"
+    //             className="fork-btn-inner"
+    //           >
+    //             <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
+    //             <AiFillStar style={{ fontSize: "1.1em" }} />
+    //           </Button>
+    //         </Nav.Item> */}
+    //       </Nav>
+    //     </Navbar.Collapse>
+    //   </Container>
+    // </Navbar>
   );
 }
 

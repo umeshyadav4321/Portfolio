@@ -46,7 +46,7 @@ import {
 const Skills = () => {
   return (
       
-    <Container fluid className="about-section">
+    <Container fluid className="about-section" id="skills">
     <Particle />
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
     <h1 className="project-heading">
